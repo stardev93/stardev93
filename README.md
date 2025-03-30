@@ -7,7 +7,7 @@ I build web and mobile applications across diverse technology stacks, specializi
 ### 🛠️ My Tech Stack
 - **Mobile**: Flutter
 - **Frontend**: React, Vue.js, Angular, TypeScript, JavaScript, HTML/CSS
-- **Backend**: Node.js, Express, Laravel, Django
+- **Backend**: Node.js, Express, Laravel, Django, Ruby on Rails.
 - **Databases**: MongoDB, MySQL, PostgreSQL
 - **DevOps**: Git, Docker, AWS
 - **Tools**: Postman, VS Code, Figma, Jira
