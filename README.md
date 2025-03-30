@@ -12,11 +12,7 @@ I build web and mobile applications across diverse technology stacks, specializi
 - **DevOps**: Git, Docker, AWS
 - **Tools**: Postman, VS Code, Figma, Jira
 
-### 🚀 Featured Projects
-- **[Healthcare App](https://github.com/stardev93/healthcare-app)**: Flutter mobile app with MERN stack backend
-- **[E-commerce Platform](https://github.com/alexrodriguez/ecommerce)**: Vue.js + Laravel multi-vendor marketplace
-- **[Task Management System](https://github.com/alexrodriguez/task-manager)**: Angular + Django application with real-time updates
-- **[Finance Dashboard](https://github.com/alexrodriguez/finance-dashboard)**: React + TypeScript + Node.js data visualization platform
+
 
 ### 💻 Code Sample Showcase
 ```javascript
