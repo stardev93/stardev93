@@ -13,7 +13,7 @@ I build web and mobile applications across diverse technology stacks, specializi
 - **Tools**: Postman, VS Code, Figma, Jira
 
 ### Contact
-📧 Email: youremail@gmail.com
+📧 Email: stardevelop93@gmail.com
 
 ### 💻 Code Sample Showcase
 ```javascript
