@@ -12,7 +12,8 @@ I build web and mobile applications across diverse technology stacks, specializi
 - **DevOps**: Git, Docker, AWS
 - **Tools**: Postman, VS Code, Figma, Jira
 
-
+### Contact
+📧 Email: youremail@gmail.com
 
 ### 💻 Code Sample Showcase
 ```javascript
@@ -30,5 +31,4 @@ const validateRequest = async (req, res, next) => {
   }
 };
 
-## Contact
-📧 Email: youremail@gmail.com
+
