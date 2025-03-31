@@ -14,6 +14,7 @@ I build web and mobile applications across diverse technology stacks, specializi
 
 ### Contact
 📧 Email: stardevelop93@gmail.com
+📧 Telegram: olaf1021
 
 ### 💻 Code Sample Showcase
 ```javascript
