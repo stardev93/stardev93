@@ -105,15 +105,7 @@ TypeScript 1 hr 10 mins    ▓░░░░░░░░░░░░░░░░�
 Other      20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.92%
 
 <!--END_SECTION:waka-->
-This breakdown:
-- Shows Flutter as your primary focus (44.32%)
-- Gives significant time to MERN stack development (27.65%)
-- Includes your blockchain work with Solidity (15.30%)
-- Shows your GoLang development (8.65%)
-- Includes some TypeScript work which complements both your MERN and blockchain development
-- Has a small "Other" category for miscellaneous coding tasks
 
-The percentages and hours reflect your preference for Flutter as your main technology, with MERN, Solidity, and GoLang following in that order.
 </div>
 
 ---
