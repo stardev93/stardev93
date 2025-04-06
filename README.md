@@ -4,6 +4,10 @@
 
 I craft elegant solutions across the full technology stack, with particular expertise in mobile development with Flutter, web applications, and blockchain technologies.
 
+[![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/yourusername)
+[![Twitter: YourTwitter](https://img.shields.io/twitter/follow/yourtwitterhandle?style=social)](https://twitter.com/yourtwitterhandle)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yourlinkedin/)
+
 ---
 
 ### 🔧 Technologies & Tools
@@ -24,30 +28,14 @@ I craft elegant solutions across the full technology stack, with particular expe
 
 ---
 
-### 🚀 Highlighted Projects
-
-#### Mobile Development
-- **[Project Name](https://github.com/yourusername/projectname)** - A cross-platform mobile app built with Flutter that [brief description of what it does and its impact]
-- **[Another Project](https://github.com/yourusername/anotherproject)** - [Description]
-
-#### Web Development
-- **[Web Project](https://github.com/yourusername/webproject)** - A responsive web application built with [technologies] that [brief description]
-- **[Another Web Project](https://github.com/yourusername/anotherwebproject)** - [Description]
-
-#### Blockchain
-- **[DApp Name](https://github.com/yourusername/dappname)** - A decentralized application that [brief description of what it does and technologies used]
-- **[Smart Contract Project](https://github.com/yourusername/smartcontractproject)** - [Description]
-
----
-
 ### 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=stardev93&show_icons=true&count_private=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&count_private=true&theme=radical" alt="GitHub Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=stardev93&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="GitHub Streak" />
 </div>
 
 ---
@@ -56,7 +44,8 @@ I craft elegant solutions across the full technology stack, with particular expe
 - Advanced smart contract development
 - Web3 integration patterns
 - Flutter state management with Riverpod
-- [Other technologies or concepts you're studying]
+- Cloud infrastructure and DevOps
+- AI/ML integration in applications
 
 ---
 
