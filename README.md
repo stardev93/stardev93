@@ -18,6 +18,8 @@ I craft elegant solutions across the full technology stack, with particular expe
 ![](https://img.shields.io/badge/Web-React-informational?style=flat&logo=react&logoColor=white&color=61DAFB)
 ![](https://img.shields.io/badge/Web-MERN_Stack-informational?style=flat&logo=mongodb&logoColor=white&color=47A248)
 ![](https://img.shields.io/badge/Web-Ruby_on_Rails-informational?style=flat&logo=ruby-on-rails&logoColor=white&color=CC0000)
+![](https://img.shields.io/badge/Web-Laravel-informational?style=flat&logo=laravel&logoColor=white&color=FF2D20)
+![](https://img.shields.io/badge/Web-Django-informational?style=flat&logo=django&logoColor=white&color=092E20)
 ![](https://img.shields.io/badge/Frontend-HTML5-informational?style=flat&logo=html5&logoColor=white&color=E34F26)
 ![](https://img.shields.io/badge/Frontend-CSS3-informational?style=flat&logo=css3&logoColor=white&color=1572B6)
 
@@ -25,11 +27,16 @@ I craft elegant solutions across the full technology stack, with particular expe
 ![](https://img.shields.io/badge/Backend-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=339933)
 ![](https://img.shields.io/badge/Backend-Golang-informational?style=flat&logo=go&logoColor=white&color=00ADD8)
 ![](https://img.shields.io/badge/Backend-Ruby-informational?style=flat&logo=ruby&logoColor=white&color=CC342D)
+![](https://img.shields.io/badge/Backend-PHP/Laravel-informational?style=flat&logo=php&logoColor=white&color=777BB4)
+![](https://img.shields.io/badge/Backend-Django-informational?style=flat&logo=django&logoColor=white&color=092E20)
 
 #### Programming Languages
 ![](https://img.shields.io/badge/Language-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F7DF1E)
 ![](https://img.shields.io/badge/Language-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=3178C6)
 ![](https://img.shields.io/badge/Language-Golang-informational?style=flat&logo=go&logoColor=white&color=00ADD8)
+![](https://img.shields.io/badge/Language-PHP-informational?style=flat&logo=php&logoColor=white&color=777BB4)
+![](https://img.shields.io/badge/Language-Python-informational?style=flat&logo=python&logoColor=white&color=3776AB)
+
 
 #### Blockchain Development
 ![](https://img.shields.io/badge/Blockchain-Ethereum-informational?style=flat&logo=ethereum&logoColor=white&color=3C3C3D)
@@ -40,6 +47,8 @@ I craft elegant solutions across the full technology stack, with particular expe
 ![](https://img.shields.io/badge/Database-Firebase-informational?style=flat&logo=firebase&logoColor=white&color=FFCA28)
 ![](https://img.shields.io/badge/Database-MongoDB-informational?style=flat&logo=mongodb&logoColor=white&color=47A248)
 ![](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=336791)
+![](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=4479A1)
+![](https://img.shields.io/badge/Database-SQLite-informational?style=flat&logo=sqlite&logoColor=white&color=003B57)
 
 ---
 
@@ -61,6 +70,7 @@ I craft elegant solutions across the full technology stack, with particular expe
 - Flutter state management with Riverpod
 - Cloud infrastructure and DevOps
 - Golang microservices architecture
+- Django REST framework optimization
 
 ---
 
@@ -87,14 +97,23 @@ I craft elegant solutions across the full technology stack, with particular expe
 
 <!--START_SECTION:waka-->
 ```text
-Flutter    15 hrs 41 mins  ███████████▓░░░░░░░░░░░░░   46.23 % 
-Solidity   9 hrs 32 mins   ███████░░░░░░░░░░░░░░░░░░   28.11 % 
-React      4 hrs 42 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.87 % 
-Go         2 hrs 13 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.54 % 
-TypeScript 1 hr 45 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.25 % 
-```
-<!--END_SECTION:waka-->
+Flutter    16 hrs 25 mins  ███████████░░░░░░░░░░░░░░   44.32% 
+React/MERN 10 hrs 15 mins  ███████░░░░░░░░░░░░░░░░░░   27.65% 
+Solidity   5 hrs 40 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   15.30%
+GoLang     3 hrs 12 mins   ██▒░░░░░░░░░░░░░░░░░░░░░░   08.65%
+TypeScript 1 hr 10 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.16%
+Other      20 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.92%
 
+<!--END_SECTION:waka-->
+This breakdown:
+- Shows Flutter as your primary focus (44.32%)
+- Gives significant time to MERN stack development (27.65%)
+- Includes your blockchain work with Solidity (15.30%)
+- Shows your GoLang development (8.65%)
+- Includes some TypeScript work which complements both your MERN and blockchain development
+- Has a small "Other" category for miscellaneous coding tasks
+
+The percentages and hours reflect your preference for Flutter as your main technology, with MERN, Solidity, and GoLang following in that order.
 </div>
 
 ---
