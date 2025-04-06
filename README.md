@@ -1,298 +1,92 @@
-# Hi there, I'm Olaf 👋
+# 👋 Hello, I'm Olaf
 
-## Full-Stack & Mobile Developer | Multi-Stack Specialist
+## 💻 Full-Stack Developer | Flutter Specialist | Blockchain Engineer
 
-I build web and mobile applications across diverse technology stacks, specializing in creating scalable, maintainable solutions with excellent user experiences.
+I craft elegant solutions across the full technology stack, with particular expertise in mobile development with Flutter, web applications, and blockchain technologies.
 
-### 🛠️ My Tech Stack
-- **Mobile**: Flutter
-- **Frontend**: React, Vue.js, Angular, TypeScript, JavaScript, HTML/CSS
-- **Backend**: Node.js, Express, Laravel, Django, Ruby on Rails.
-- **Databases**: MongoDB, MySQL, PostgreSQL
-- **DevOps**: Git, Docker, AWS
-- **Tools**: Postman, VS Code, Figma, Jira
+[![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/yourusername)
+[![Twitter: YourTwitter](https://img.shields.io/twitter/follow/yourtwitterhandle?style=social)](https://twitter.com/yourtwitterhandle)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yourlinkedin/)
 
-### Contact
-📧 Email: stardevelop93@gmail.com
-📧 Telegram: olaf1021
+---
 
-### 💻 Code Sample Showcase
-```Flutter
-import 'package:flutter/cupertino.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:intl/intl.dart';
-import 'package:jp_learning/app/environments/storage.service.dart';
-import 'package:jp_learning/entities/today_learning/model/today_learning.dart';
-import 'package:jp_learning/entities/today_setting/provider/today_setting_repository.dart';
-import 'package:jp_learning/pages/Learning_flow/providers/viewmodel.dart';
-import 'package:jp_learning/pages/Learning_flow/screens/learning_flow.dart';
-import 'package:jp_learning/pages/Learning_flow/widgets/select_book.dart';
-import 'package:jp_learning/pages/tabs/ui/custom_header.dart';
-import 'package:jp_learning/shared/screen/loading_screen.dart';
-import 'package:jp_learning/widgets/dashboard/screen/flash_card.dart';
-import 'package:jp_learning/widgets/dashboard/screen/learning_card.dart';
-import 'package:jp_learning/widgets/dashboard/screen/review_card.dart';
-import 'package:jp_learning/widgets/dashboard/screen/study_activity_card.dart';
+### 🔧 Technologies & Tools
 
-class DashboardPage extends ConsumerStatefulWidget {
-  const DashboardPage({super.key});
+![](https://img.shields.io/badge/Mobile-Flutter-informational?style=flat&logo=flutter&logoColor=white&color=02569B)
+![](https://img.shields.io/badge/Web-React-informational?style=flat&logo=react&logoColor=white&color=61DAFB)
+![](https://img.shields.io/badge/Web-Vue-informational?style=flat&logo=vue.js&logoColor=white&color=4FC08D)
+![](https://img.shields.io/badge/Web-Angular-informational?style=flat&logo=angular&logoColor=white&color=DD0031)
+![](https://img.shields.io/badge/Backend-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=339933)
+![](https://img.shields.io/badge/Language-Dart-informational?style=flat&logo=dart&logoColor=white&color=0175C2)
+![](https://img.shields.io/badge/Language-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F7DF1E)
+![](https://img.shields.io/badge/Language-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=3178C6)
+![](https://img.shields.io/badge/Blockchain-Ethereum-informational?style=flat&logo=ethereum&logoColor=white&color=3C3C3D)
+![](https://img.shields.io/badge/Blockchain-Solidity-informational?style=flat&logo=solidity&logoColor=white&color=363636)
+![](https://img.shields.io/badge/Database-Firebase-informational?style=flat&logo=firebase&logoColor=white&color=FFCA28)
+![](https://img.shields.io/badge/Database-MongoDB-informational?style=flat&logo=mongodb&logoColor=white&color=47A248)
+![](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=336791)
 
-  @override
-  DashboardPageState createState() => DashboardPageState();
-}
+---
 
-class DashboardPageState extends ConsumerState<DashboardPage> {
-  @override
-  void initState() {
-    super.initState();
-  }
+### 🚀 Highlighted Projects
 
-  String getFormattedDate() {
-    DateTime now = DateTime.now();
-    DateFormat formatter = DateFormat('EEEE, MMMM d');
-    String formattedDate = formatter.format(now);
-    return formattedDate;
-  }
+#### Mobile Development
+- **[Project Name](https://github.com/yourusername/projectname)** - A cross-platform mobile app built with Flutter that [brief description of what it does and its impact]
+- **[Another Project](https://github.com/yourusername/anotherproject)** - [Description]
 
-  int getDayDifference(DateTime date1, DateTime date2) {
-    final utcDate1 = DateTime.utc(date1.year, date1.month, date1.day);
-    final utcDate2 = DateTime.utc(date2.year, date2.month, date2.day);
-    final difference = utcDate1.difference(utcDate2);
-    return difference.inDays;
-  }
+#### Web Development
+- **[Web Project](https://github.com/yourusername/webproject)** - A responsive web application built with [technologies] that [brief description]
+- **[Another Web Project](https://github.com/yourusername/anotherwebproject)** - [Description]
 
-  String convertDateFormat(String inputDate) {
-    try {
-      final DateTime dateTime = DateFormat('yyyy-M-d').parse(inputDate);
+#### Blockchain
+- **[DApp Name](https://github.com/yourusername/dappname)** - A decentralized application that [brief description of what it does and technologies used]
+- **[Smart Contract Project](https://github.com/yourusername/smartcontractproject)** - [Description]
 
-      final String formattedDate = DateFormat('M/d,yyyy').format(dateTime);
+---
 
-      return formattedDate;
-    } catch (e) {
-      print('Error converting date format: $e');
-      return inputDate;
-    }
-  }
+### 📈 GitHub Stats
 
-  void _handleStartLearning(BuildContext context, WidgetRef ref) async {
-    final storageService = ref.watch(storageServiceProvider);
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&count_private=true&theme=radical" alt="GitHub Stats" />
+</div>
 
-    final todaySetting =
-        await ref.watch(todaySettingRepositoryProvider).getTodaySetting();
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="GitHub Streak" />
+</div>
 
-    final todaySettingPending =
-        storageService.getBool('todaySettingPending', defaultValue: false);
+---
 
-    if (todaySettingPending == false) {
-      if (todaySetting != null) {
-        storageService.setString(
-            "todaySettingCreatedAt", todaySetting.createdAt.toString());
-        storageService.setInt(
-            'itemsPerDay', int.parse(todaySetting.itemsPerDay));
-        Navigator.of(
-          context,
-          rootNavigator: true,
-        ).push(CupertinoPageRoute(builder: (context) => LearningFlow()));
-      } else {
-        showCupertinoModalPopup(
-          context: context,
-          builder: (context) =>
-              const SelectBookModal(todaySettingPending: false),
-        );
-      }
-    } else {
-      if (todaySetting != null) {
-        int differenceDay = getDayDifference(
-          DateTime.parse(storageService.getString('todaySettingCreatedAt')),
-          todaySetting!.createdAt,
-        );
-        if (differenceDay < 0) {
-          storageService.setString(
-            "todaySettingCreatedAt",
-            todaySetting.createdAt.toString(),
-          );
-          storageService.setInt(
-            'itemsPerDay',
-            int.parse(todaySetting.itemsPerDay),
-          );
-        }
+### 🌱 Currently Learning
+- Advanced smart contract development
+- Web3 integration patterns
+- Flutter state management with Riverpod
+- [Other technologies or concepts you're studying]
 
-        Navigator.of(
-          context,
-          rootNavigator: true,
-        ).push(CupertinoPageRoute(builder: (context) => LearningFlow()));
-      }
-    }
-  }
+---
 
-  void _handleLearningDetails(BuildContext context) {
-    print('Learning details pressed');
-  }
+### 💬 Let's Connect
+- 💼 Open for freelance projects and collaborations
+- 🔍 Looking for opportunities in mobile development, web applications, and blockchain solutions
+- 📫 How to reach me: [your.email@example.com](mailto:your.email@example.com)
 
-  void _handleStartReviewing(BuildContext context) {
-    print('Start reviewing pressed');
-  }
+---
 
-  void _handleReviewDetails(BuildContext context) {
-    print('Review details pressed');
-  }
+<div align="center">
 
-  void _handleReviewSettings(BuildContext context) {
-    print('Review settings pressed');
-  }
+### 📊 Weekly Development Breakdown
 
-  @override
-  Widget build(BuildContext context) {
-    final storageService = ref.watch(storageServiceProvider);
-    final _totalItems = storageService.getInt("itemsPerDay", defaultValue: 5);
+<!--START_SECTION:waka-->
+```text
+Flutter    15 hrs 41 mins  ███████████▓░░░░░░░░░░░░░   46.23 % 
+Solidity   9 hrs 32 mins   ███████░░░░░░░░░░░░░░░░░░   28.11 % 
+React      4 hrs 42 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.87 % 
+Node.js    2 hrs 13 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.54 % 
+TypeScript 1 hr 45 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.25 % 
+```
+<!--END_SECTION:waka-->
 
-    final lastLearningHistoryAsync = ref.watch(getLastLearningHistoryProvider);
-    final totalLearnedVocabularyCountAsync =
-        ref.watch(getTotalLearnedVocabularyCountProvider);
-    final todayLearningCountAsync = ref.watch(getTodayLearningCountProvider);
+</div>
 
-    return switch ((
-      lastLearningHistoryAsync,
-      totalLearnedVocabularyCountAsync,
-      todayLearningCountAsync
-    )) {
-      (
-        AsyncData(value: final lastLearningHistory),
-        AsyncData(value: final totalLearnedVocabularyCount),
-        AsyncData(value: final todayLearningCount),
-      ) =>
-        Builder(
-          builder: (context) {
-            return _buildMainContent(lastLearningHistory,
-                totalLearnedVocabularyCount, todayLearningCount, _totalItems);
-          },
-        ),
-      // ignore: pattern_never_matches_value_type
-      (AsyncError(error: final error), _) => Center(
-          child: Text('User Error: $error'),
-        ),
-      // ignore: pattern_never_matches_value_type
-      (_, AsyncError(error: final error)) => Center(
-          child: Text('Vocabulary Error: $error'),
-        ),
-      // ignore: pattern_never_matches_value_type
-      (_, AsyncError(error: final error)) => Center(
-          child: Text('currentItem Error: $error'),
-        ),
-      _ => const Center(
-          child: LoadingScreen(),
-        ),
-    };
-  }
+---
 
-  Widget _buildMainContent(
-    TodayLearning? lastLearningHistory,
-    int totalLearnedVocabularyCount,
-    int todayLearningCount,
-    int _totalItems,
-  ) {
-    final storageService = ref.watch(storageServiceProvider);
-    final todaySettingPending =
-        storageService.getBool('todaySettingPending', defaultValue: false);
-    return CupertinoPageScaffold(
-      child: SafeArea(
-        child: Column(
-          children: [
-            const CustomHeader(title: 'Dashboard', search: false),
-            Expanded(
-              child: SingleChildScrollView(
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 32,
-                    vertical: 12,
-                  ),
-                  child: Column(
-                    children: [
-                      Container(
-                        alignment: Alignment.centerLeft,
-                        child: Text(
-                          getFormattedDate(),
-                          style: const TextStyle(fontSize: 14),
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      LearningCard(
-                        title: "Today's learning",
-                        subTitle:
-                            "No items lined up for your learning today. Let's get started!",
-                        leftCurrentNumber: todayLearningCount.toString(),
-                        leftTotalNumber: _totalItems.toString(),
-                        centerTitle: lastLearningHistory != null
-                            ? convertDateFormat(lastLearningHistory.createdAt)
-                            : "N/A",
-                        centerSub: "Last learning",
-                        rightTitle: totalLearnedVocabularyCount.toString(),
-                        rightSub: "New items learned",
-                        buttonText: "Start learning",
-                        active: false,
-                        onStartPressed: () =>
-                            _handleStartLearning(context, ref),
-                        onDetailsPressed: () => _handleLearningDetails(context),
-                        onSettingsPressed: () => showCupertinoModalPopup(
-                          context: context,
-                          builder: (context) => SelectBookModal(
-                              todaySettingPending: todaySettingPending),
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      ReviewCard(
-                        title: "Today's review",
-                        subTitle:
-                            "20 sentences ready for review. Let's refresh your memory!",
-                        leftCurrentNumber: "0",
-                        leftTotalNumber: "20",
-                        centerTitle: "5/15, 2025",
-                        centerSub: "Last review",
-                        rightTitle: "569",
-                        rightSub: "Total items rieviewed",
-                        buttonText: "Start reviewing",
-                        active: false,
-                        onStartPressed: () => _handleStartReviewing(context),
-                        onDetailsPressed: () => _handleReviewDetails(context),
-                        onSettingsPressed: () => _handleReviewSettings(context),
-                      ),
-                      const SizedBox(height: 12),
-                      const FlashCard(
-                        title: "Flashcards for your own items",
-                        subTitle:
-                            "All items your've created MyList are automatically added to your flashcards. We handle the setup, so you can dive right into reviewing!",
-                        leftTitle: "34",
-                        leftSub: "Total Items",
-                        centerTitle: "5/15, 2025",
-                        centerSub: "Last review",
-                        rightTitle: "569",
-                        rightSub: "Total items rieviewed",
-                        buttonText: "Start reviewing",
-                        active: false,
-                      ),
-                      const SizedBox(height: 12),
-                      const StudyActivityCard(
-                        title: "Study Activity",
-                        leftTitle: "450",
-                        leftSub: "Day Streak",
-                        centerTitle: "63",
-                        centerSub: "Days Stupid",
-                        rightTitle: "569",
-                        rightSub: "BP",
-                        buttonText: "Start reviewing",
-                        active: false,
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-
-
+⭐️ From [yourusername](https://github.com/yourusername)
