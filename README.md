@@ -4,9 +4,7 @@
 
 I craft elegant solutions across the full technology stack, with particular expertise in mobile development with Flutter, web applications, and blockchain technologies.
 
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/yourusername)
-[![Twitter: YourTwitter](https://img.shields.io/twitter/follow/yourtwitterhandle?style=social)](https://twitter.com/yourtwitterhandle)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/yourlinkedin/)
+[![GitHub followers](https://img.shields.io/github/followers/stardev93?label=Follow&style=social)](https://github.com/stardev93)
 
 ---
 
@@ -74,4 +72,4 @@ TypeScript 1 hr 45 mins    █▒░░░░░░░░░░░░░░░�
 
 ---
 
-⭐️ From [yourusername](https://github.com/yourusername)
+⭐️ From [yourusername](https://github.com/stardev93)
