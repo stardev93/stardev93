@@ -80,7 +80,7 @@ I craft elegant solutions across the full technology stack, with particular expe
   <a href="mailto:stardevelop93@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://t.me/olaf1021">
+  <a href="https://t.me/olaf_1021">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
 </p>
