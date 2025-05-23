@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Olaf
 
-## 💻 Full-Stack Developer | Flutter Specialist | Blockchain Engineer
+## 💻 Full-Stack Developer | Flutter Specialist
 
 I craft elegant solutions across the full technology stack, with particular expertise in mobile development with Flutter, web applications, and blockchain technologies.
 
