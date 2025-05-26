@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Olaf
 
-## 💻 Full-Stack Developer | Flutter Specialist
+## 💻 Flutter & Golang | Full-Stack Developer
 
 Highly skilled Flutter Developer and Golang with extensive full-stack development experience and mastery of modern web technologies. Proven expertise in building scalable mobile applications, robust backend systems, and seamless user experiences. Strong background in MERN stack, Vue.js, Laravel, with deep knowledge of containerization and version control systems.
 
